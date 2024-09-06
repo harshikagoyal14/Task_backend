@@ -24,7 +24,7 @@ app.add_middleware(
 )
 
 # Google Generative AI API key
-GOOGLE_API_KEY = 'AIzaSyAmyK2-L52gXmIdHbaY5ZwQxaouJaLalBM'
+GOOGLE_API_KEY = 'your-google-api-key'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 logging.basicConfig(level=logging.INFO)
